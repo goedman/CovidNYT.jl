@@ -19,7 +19,7 @@ rel_path_covid("..", "data")
 """
 rel_path_covidnyt(parts...) = normpath(joinpath(src_path, parts...))
 
-include("refresh_dataframes.jl")
+#include("refresh_dataframes.jl")
 
 export
   rel_path_covidnyt

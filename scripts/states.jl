@@ -1,4 +1,4 @@
-using CovidNYT
+using StatisticalRethinking, CovidNYT, Dates
 using StatsPlots
 gr(size=(700, 1000))
 
@@ -57,8 +57,8 @@ for (indx, state) in enumerate(states)
 end
 
 plot(p..., layout=(4, 2))
-savefig("$(ProjDir)/states.png")
-savefig("$(ProjDir)/states.pdf")
+savefig("$(ProjDir)/states_$(string(today())).png")
+savefig("$(ProjDir)/states_$(string(today())).pdf")
 
 df_counties = CSV.read(rel_path_covidnyt("..", "data", "us-counties.csv"))
 df_counties[!, :month] = Dates.month.(df_counties[:, :date])
@@ -92,5 +92,5 @@ for (indx, county) in enumerate(counties)
 end
 
 plot(p..., layout=(4, 2))
-savefig("$(ProjDir)/counties.png")
-savefig("$(ProjDir)/counties.pdf")
+savefig("$(ProjDir)/counties_$(string(today())).png")
+savefig("$(ProjDir)/counties_$(string(today())).pdf")
