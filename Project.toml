@@ -1,0 +1,19 @@
+name = "CovidNYT"
+uuid = "b688e95f-7e1f-4983-b5fd-b778d236b1ee"
+authors = ["Rob J Goedman <goedman@mac.com>"]
+version = "0.1.0"
+
+[deps]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+StatisticalRethinking = "2d09df54-9d0f-5258-8220-54c2a3d4fbee"
+
+[compat]
+DocStringExtensions = "0.8"
+StatisticalRethinking = "2.1"
+julia = "^1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
