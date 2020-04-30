@@ -1,5 +1,4 @@
 using StatisticalRethinking, CovidNYT, Dates
-using StatsPlots
 gr(size=(700, 1000))
 
 ProjDir = @__DIR__
@@ -35,9 +34,9 @@ for (indx, state) in enumerate(states)
   global plot_indx += 1
   df[indx] = df_states[df_states.state .== state, :]
 
-  p[plot_indx] = plot(leg=:topleft, title=state)
-  plot!((df[indx][:, :date]), df[indx][:, :cases], lab="cases")
-  plot!(df[indx][:, :date], df[indx][:, :deaths], lab="deaths")
+  p[plot_indx] = plot(leg=:topleft, title=state, ylab="log10")
+  plot!((df[indx][:, :date]), log10.(df[indx][:, :cases]), lab="cases")
+  plot!(df[indx][:, :date], log10.(df[indx][:, :deaths]), lab="deaths")
 
   local c = df[indx][:, :cases]
   c[2:end] = c[2:end] - c[1:end-1]
@@ -49,7 +48,7 @@ for (indx, state) in enumerate(states)
   df[indx][!, :ma] = ma(Float64.(df[indx][:, :new_cases]), wind)
 
   plot_indx += 1
-  p[plot_indx] = plot(leg=:topleft, title=state)
+  p[plot_indx] = plot(leg=:topleft, title=state, ylab="new cases")
   plot!(df[indx][:, :date], df[indx][:, :new_cases], lab="New cases", color=:lightblue)
   plot!(df[indx][:, :date], df[indx][:, :new_deaths], lab="New deaths")
   plot!(df[indx][:, :date], df[indx][:, :ma], lab="$(wind) day ma", color=:darkblue)
@@ -57,8 +56,8 @@ for (indx, state) in enumerate(states)
 end
 
 plot(p..., layout=(4, 2))
-savefig("$(ProjDir)/states_$(string(today())).png")
-savefig("$(ProjDir)/states_$(string(today())).pdf")
+savefig("$(ProjDir)/graphs/states_$(string(today())).png")
+savefig("$(ProjDir)/graphs/states_$(string(today())).pdf")
 
 df_counties = CSV.read(rel_path_covidnyt("..", "data", "us-counties.csv"))
 df_counties[!, :month] = Dates.month.(df_counties[:, :date])
@@ -70,9 +69,9 @@ for (indx, county) in enumerate(counties)
   global plot_indx += 1
   df[indx] = df_counties[df_counties.county .== county, :]
   
-  p[plot_indx] = plot(leg=:topleft, title=county)
-  plot!((df[indx][:, :date]), df[indx][:, :cases], lab="cases")
-  plot!(df[indx][:, :date], df[indx][:, :deaths], lab="deaths")
+  p[plot_indx] = plot(leg=:topleft, title=county, ylab="log10")
+  plot!((df[indx][:, :date]), log10.(df[indx][:, :cases]), lab="cases")
+  plot!(df[indx][:, :date], log10.(df[indx][:, :deaths]), lab="deaths")
 
   local c = df[indx][:, :cases]
   c[2:end] = c[2:end] - c[1:end-1]
@@ -84,7 +83,7 @@ for (indx, county) in enumerate(counties)
   df[indx][!, :ma] = ma(Float64.(df[indx][:, :new_cases]), wind)
 
   plot_indx += 1
-  p[plot_indx] = plot(leg=:topleft, title=county)
+  p[plot_indx] = plot(leg=:topleft, title=county, ylab="new cases")
   plot!(df[indx][:, :date], df[indx][:, :new_cases], lab="New cases", color=:lightblue)
   plot!(df[indx][:, :date], df[indx][:, :new_deaths], lab="New deaths")
   plot!(df[indx][:, :date], df[indx][:, :ma], lab="$(wind) day ma", color=:darkblue)
@@ -92,5 +91,5 @@ for (indx, county) in enumerate(counties)
 end
 
 plot(p..., layout=(4, 2))
-savefig("$(ProjDir)/counties_$(string(today())).png")
-savefig("$(ProjDir)/counties_$(string(today())).pdf")
+savefig("$(ProjDir)/graphs/counties_$(string(today())).png")
+savefig("$(ProjDir)/graphs/counties_$(string(today())).pdf")
