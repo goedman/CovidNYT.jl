@@ -21,7 +21,7 @@ df_states[!, :month] = Dates.month.(df_states[:, :date])
 df_states[!, :day] = Dates.day.(df_states[:, :date])
 #first(df_states, 5) |> display
 
-states = ["New York", "California", "District of Columbia", "Colorado"]
+states = ["New York", "Florida", "California", "Colorado"]
 counties = ["New York City", "San Diego", "District of Columbia", "Denver"]
 
 wind = 7
