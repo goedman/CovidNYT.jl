@@ -16,7 +16,7 @@ function ma(x::Vector{Float64}, wind::Int)
     return y
 end
 
-df_states = DataFrame!(CSV.read(rel_path_covidnyt("..", "data", "us-states.csv")))
+df_states = DataFrame!(CSV.File(rel_path_covidnyt("..", "data", "us-states.csv")))
 df_states[!, :month] = Dates.month.(df_states[:, :date])
 df_states[!, :day] = Dates.day.(df_states[:, :date])
 #first(df_states, 5) |> display
@@ -59,7 +59,7 @@ plot(p..., layout=(4, 2))
 savefig("$(ProjDir)/graphs/states_$(string(today())).png")
 savefig("$(ProjDir)/graphs/states_$(string(today())).pdf")
 
-df_counties = CSV.read(rel_path_covidnyt("..", "data", "us-counties.csv"))
+df_counties = DataFrame!(CSV.File(rel_path_covidnyt("..", "data", "us-counties.csv")))
 df_counties[!, :month] = Dates.month.(df_counties[:, :date])
 df_counties[!, :day] = Dates.day.(df_counties[:, :date])
 #first(df_counties, 5) |> display
