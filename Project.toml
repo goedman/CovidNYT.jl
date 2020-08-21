@@ -9,7 +9,7 @@ StatisticalRethinking = "2d09df54-9d0f-5258-8220-54c2a3d4fbee"
 
 [compat]
 DocStringExtensions = "0.8"
-StatisticalRethinking = "2.1"
+StatisticalRethinking = "2, 3"
 julia = "^1"
 
 [extras]
