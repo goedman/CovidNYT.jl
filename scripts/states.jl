@@ -1,4 +1,4 @@
-using StatisticalRethinking, CovidNYT, Dates
+using DataFrames, StatsBase, StatsPlots, CSV, CovidNYT, Dates
 gr(size=(700, 1000))
 
 ProjDir = @__DIR__
