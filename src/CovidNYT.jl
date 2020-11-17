@@ -1,6 +1,5 @@
 module CovidNYT
 
-using StatisticalRethinking
 using DocStringExtensions: SIGNATURES, FIELDS, TYPEDEF
 
 const src_path = @__DIR__
