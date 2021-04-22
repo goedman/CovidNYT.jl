@@ -18,7 +18,7 @@ StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
 
 [compat]
 CSV = "0"
-DataFrames = "0"
+DataFrames = "0, 1.0"
 DocStringExtensions = "0.8"
 NamedArrays = "0.9"
 OrderedCollections = "1"
