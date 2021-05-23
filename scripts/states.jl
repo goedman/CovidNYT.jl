@@ -83,7 +83,8 @@ for (indx, county) in enumerate(counties)
   df[indx][!, :ma] = ma(Float64.(df[indx][:, :new_cases]), wind)
 
   plot_indx += 1
-  p[plot_indx] = plot(leg=:topleft, title=county, ylab="new cases")
+  yminmax = (0.0, maximum(df[indx][:, :new_cases]))
+  p[plot_indx] = plot(leg=:topleft, title=county, ylims=yminmax, ylab="new cases")
   plot!(df[indx][:, :date], df[indx][:, :new_cases], lab="New cases", color=:lightblue)
   plot!(df[indx][:, :date], df[indx][:, :new_deaths], lab="New deaths")
   plot!(df[indx][:, :date], df[indx][:, :ma], lab="$(wind) day ma", color=:darkblue)
