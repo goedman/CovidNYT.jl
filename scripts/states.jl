@@ -48,10 +48,11 @@ for (indx, state) in enumerate(states)
   df[indx][!, :ma] = ma(Float64.(df[indx][:, :new_cases]), wind)
 
   plot_indx += 1
-  p[plot_indx] = plot(leg=:topleft, title=state, ylab="new cases")
+  p[plot_indx] = plot(leg=:topleft, title=state, ylab="new cases", )
   plot!(df[indx][:, :date], df[indx][:, :new_cases], lab="New cases", color=:lightblue)
   plot!(df[indx][:, :date], df[indx][:, :new_deaths], lab="New deaths")
-  plot!(df[indx][:, :date], df[indx][:, :ma], lab="$(wind) day ma", color=:darkblue)
+  yminmax = (0.0, maximum(df[indx][:, :ma]))
+  plot!(df[indx][:, :date], df[indx][:, :ma], lab="$(wind) day ma", color=:darkblue, ylims=yminmax)
 
 end
 
