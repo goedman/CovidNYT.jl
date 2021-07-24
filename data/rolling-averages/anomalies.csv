@@ -511,6 +511,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-28,,,Nebraska,USA-31,both,yes,yes,"The Times began using local data for many Nebraska counties after the state stopped reporting county-level data on May 26, resulting in one-day increases and decreases in cases and deaths."
 2021-05-29,2021-06-12,Collin,Texas,USA-48085,cases,yes,,Texas reported many cases for Collin County on June 12 after officials did not announce new data for two weeks.
 2021-05-31,,,,USA,cases,,,The daily count is artificially low because many states and local jurisdictions did not announce new data on Memorial Day.
+2021-06-01,,,Kentucky,USA-21,deaths,yes,,Kentucky added many deaths that occurred in previous months.
 2021-06-01,,Williamson,Texas,USA-48491,cases,,,Williamson County did not update its data because of technical issues.
 2021-06-03,,,Indiana,USA-18,cases,yes,yes,Indiana added 765 cases from previous months.
 2021-06-03,,Bexar,Texas,USA-48029,deaths,yes,,Bexar County added 23 deaths that occurred between July 2020 and May 2021.
@@ -623,4 +624,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-07-13,,Hopkins,Texas,USA-48223,cases,yes,,Texas added many older cases in Hopkins County.
 2021-07-14,,,Arizona,USA-04,cases,,,Arizona added many cases after resolving a tehnical issue that affected case counts for the two previous days. 
 2021-07-14,,Riverside,California,USA-06065,cases,yes,,Riverside County removed many cases.
-2021-07-15,2021-07-16,Carroll,Illinois,USA-17015,cases,yes,,Illinois added many cases in Carroll County.
+2021-07-15,2021-07-19,Carroll,Illinois,USA-17015,cases,yes,,Illinois added prison cases from previous months in Carroll County.
+2021-07-19,,,South Carolina,USA-45,deaths,,,South Carolina removed several deaths and announced that deaths will be updated weekly.
+2021-07-19,,,Ohio,USA-39,cases,,,Ohio added cases from recent weeks after resolving a technical issue.
+2021-07-22,,Spokane,Washington,USA-53063,cases,yes,,Washington added a backlog of cases in Spokane County.
+2021-07-23,,,Utah,USA-49,both,,,"Utah did not release data because of Pioneer Day, a state holiday."
