@@ -64,6 +64,7 @@ df_counties = CSV.read(rel_path_covidnyt("..", "data", "us-counties.csv"), DataF
 df_counties[!, :month] = Dates.month.(df_counties[:, :date])
 df_counties[!, :day] = Dates.day.(df_counties[:, :date])
 #first(df_counties, 5) |> display
+max_values = [7000, 5000, 800, 800]
 
 plot_indx = 0
 for (indx, county) in enumerate(counties)
@@ -84,7 +85,8 @@ for (indx, county) in enumerate(counties)
   df[indx][!, :ma] = ma(Float64.(df[indx][:, :new_cases]), wind)
 
   plot_indx += 1
-  yminmax = (0.0, maximum(df[indx][:, :new_cases]))
+  yminmax = (0.0, max_values[indx])
+  #yminmax = (0.0, maximum(df[indx][:, :new_cases]))
   p[plot_indx] = plot(leg=:topleft, title=county, ylims=yminmax, ylab="new cases")
   plot!(df[indx][:, :date], df[indx][:, :new_cases], lab="New cases", color=:lightblue)
   plot!(df[indx][:, :date], df[indx][:, :new_deaths], lab="New deaths")
