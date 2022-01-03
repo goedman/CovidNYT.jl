@@ -64,7 +64,7 @@ df_counties = CSV.read(rel_path_covidnyt("..", "data", "us-counties.csv"), DataF
 df_counties[!, :month] = Dates.month.(df_counties[:, :date])
 df_counties[!, :day] = Dates.day.(df_counties[:, :date])
 #first(df_counties, 5) |> display
-max_values = [7000, 5000, 800, 800]
+max_values = [15000, 10000, 3000, 3000]
 
 plot_indx = 0
 for (indx, county) in enumerate(counties)
