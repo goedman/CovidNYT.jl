@@ -1177,8 +1177,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-12-01,,,North Carolina,USA-37,cases,,,1975,"The Times began using state health department data for Wake County, resulting in a one-day decrease for the county."
 2021-12-01,,Wake,North Carolina,USA-37183,cases,,,1975,"Wake County stopped reporting data separately from the state health department, resulting in a one-day decrease in cases and deaths."
 2021-12-05,2021-12-19,,Maryland,USA-24,cases,yes,,0,Maryland was unable to report new cases data for more than two weeks. The state announced it was responding to a cyberattack that affected data systems.
-2021-12-05,,,Maryland,USA-24,deaths,,,0,Maryland is unable to report new deaths because of a technical issue.
-2021-12-06,,,Maryland,USA-24,both,yes,,0,Maryland is unable to report new county-level cases and deaths because of a technical issue.
+2021-12-05,2021-12-27,,Maryland,USA-24,deaths,yes,,0,Maryland was unable to report new deaths because of a technical issue.
+2021-12-06,2021-12-27,,Maryland,USA-24,both,,yes,0,Maryland was unable to report new county-level cases and deaths because of a technical issue.
 2021-12-06,2021-12-07,,Wisconsin,USA-55,both,,,0,Wisconsin was unable to report new cases and deaths because of a technical issue.
 2021-12-07,,,Wisconsin,USA-55,cases,yes,,0,Wisconsin was unable to report new cases because of a technical issue. Some counties reported new data independently.
 2021-12-08,,Washington,Rhode Island,USA-44009,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
@@ -1194,4 +1194,63 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-12-14,,Suwannee,Florida,USA-12121,deaths,,,0,Florida added many deaths in Suwannee County.
 2021-12-16,,Saipan,Northern Mariana Islands,USA-69110,cases,yes,,0,"Northern Mariana Islands updated island-level data for the first time in a month, resulting in a one-day increase for Saipan."
 2021-12-20,,,Maryland,USA-24,cases,yes,,0,Maryland reported many cases on Dec. 20 after resolving technical issues that prevented the state from reporting updates for more than two weeks.
-2021-12-21,,Reynolds,Missouri,USA-29179,cases,yes,,0,"The Times began using state health department data for Reynolds County after the county stopped releasing its own data, resulting in a one-day decrease in cases."
+2021-12-23,2021-12-24,,Mississippi,USA-28,both,,,0,Mississippi did not announce new cases and deaths for the Christmas holiday.
+2021-12-23,,,Tennessee,USA-47,deaths,yes,yes,0,"Tennessee added about 2,000 deaths from previous months after reconciling records."
+2021-12-23,2021-12-24,,Indiana,USA-18,both,,,0,Indiana did not announce new cases and deaths for the Christmas holiday.
+2021-12-23,2021-12-24,,North Carolina,USA-37,both,,,0,North Carolina did not announce new cases and deaths for the Christmas holiday.
+2021-12-23,2021-12-24,,Kentucky,USA-21,both,,,0,Kentucky did not announce new cases and deaths for the Christmas holiday.
+2021-12-23,,Reynolds,Missouri,USA-29179,cases,yes,,0,"The Times began using state health department data for Reynolds County after the county stopped releasing its own data, resulting in a one-day decrease in cases."
+2021-12-24,,,Wyoming,USA-56,both,,,0,Wyoming did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,2021-12-25,,Maryland,USA-24,both,,,0,Maryland did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Michigan,USA-26,both,,,0,Michigan did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Washington,USA-53,both,,,0,Washington did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Connecticut,USA-09,both,,,0,Connecticut did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Louisiana,USA-22,both,,,0,Louisiana did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Alaska,USA-02,both,,,0,Alaska did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Illinois,USA-17,both,,,0,Illinois did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Tennessee,USA-47,both,,,0,Tennessee did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,2021-12-26,,Texas,USA-48,both,,,0,Texas did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,South Carolina,USA-45,both,,,0,South Carolina did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Minnesota,USA-27,both,,,0,Minnesota did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Rhode Island,USA-44,both,,,0,Rhode Island did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,New Hampshire,USA-33,both,,,0,New Hampshire did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,South Dakota,USA-46,both,,,0,South Dakota did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,2021-12-25,,Idaho,USA-16,both,,,0,Idaho did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Utah,USA-49,both,,,0,Utah did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,2021-12-26,,Vermont,USA-50,both,,,0,Vermont did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Montana,USA-30,both,,,0,Montana did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Nebraska,USA-31,both,,,0,Nebraska did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Oregon,USA-41,both,,,0,Oregon did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,2021-12-26,,West Virginia,USA-54,both,,,0,West Virginia did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Nevada,USA-32,both,,,0,Nevada did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,Kansas,USA-20,both,,,0,Kansas did not announce new cases and deaths for the Christmas holiday.
+2021-12-24,,,New Mexico,USA-35,both,,,0,New Mexico did not announce new cases and deaths for the Christmas holiday.
+2021-12-25,,,New York,USA-36,both,,,0,New York did not announce new cases and deaths for the Christmas holiday.
+2021-12-25,,,,USA,both,,,0,The daily count is artificially low on Dec. 25 because many states and local jurisdictions did not announce new data on Christmas.
+2021-12-25,,,Ohio,USA-39,both,,,0,Ohio did not announce new cases and deaths for the Christmas holiday.
+2021-12-25,,,Missouri,USA-29,both,,,0,Missouri did not announce new cases and deaths for the Christmas holiday.
+2021-12-28,,,Maryland,USA-24,deaths,yes,,0,Maryland reported many deaths from the previous month after resolving a technical issue.
+2021-12-28,,Allegany,Maryland,USA-24001,both,,,0,Maryland added many cases and deaths in Allegany County after resolving a technical issue.
+2021-12-28,,Anne Arundel,Maryland,USA-24003,both,,,0,Maryland added many cases and deaths in Anne Arundel County after resolving a technical issue.
+2021-12-28,,Baltimore,Maryland,USA-24005,both,,,0,Maryland added many cases and deaths in Baltimore County after resolving a technical issue.
+2021-12-28,,Baltimore city,Maryland,USA-24510,both,,,0,Maryland added many cases and deaths in Baltimore after resolving a technical issue.
+2021-12-28,,Calvert,Maryland,USA-24009,both,,,0,Maryland added many cases and deaths in Calvert County after resolving a technical issue.
+2021-12-28,,Caroline,Maryland,USA-24011,both,,,0,Maryland added many cases and deaths in Caroline County after resolving a technical issue.
+2021-12-28,,Carroll,Maryland,USA-24013,both,,,0,Maryland added many cases and deaths in Carroll County after resolving a technical issue.
+2021-12-28,,Cecil,Maryland,USA-24015,both,,,0,Maryland added many cases and deaths in Cecil County after resolving a technical issue.
+2021-12-28,,Charles,Maryland,USA-24017,both,,,0,Maryland added many cases and deaths in Charles County after resolving a technical issue.
+2021-12-28,,Dorchester,Maryland,USA-24019,both,,,0,Maryland added many cases and deaths in Dorchester County after resolving a technical issue.
+2021-12-28,,Frederick,Maryland,USA-24021,both,,,0,Maryland added many cases and deaths in Frederick County after resolving a technical issue.
+2021-12-28,,Garrett,Maryland,USA-24023,both,,,0,Maryland added many cases and deaths in Garrett County after resolving a technical issue.
+2021-12-28,,Harford,Maryland,USA-24025,both,,,0,Maryland added many cases and deaths in Harford County after resolving a technical issue.
+2021-12-28,,Howard,Maryland,USA-24027,both,,,0,Maryland added many cases and deaths in Howard County after resolving a technical issue.
+2021-12-28,,Kent,Maryland,USA-24029,both,,,0,Maryland added many cases and deaths in Kent County after resolving a technical issue.
+2021-12-28,,Montgomery,Maryland,USA-24031,both,,,0,Maryland added many cases and deaths in Montgomery County after resolving a technical issue.
+2021-12-28,,Prince George's,Maryland,USA-24033,both,,,0,Maryland added many cases and deaths in Prince George's County after resolving a technical issue.
+2021-12-28,,Queen Anne's,Maryland,USA-24035,both,,,0,Maryland added many cases and deaths in Queen Anne's County after resolving a technical issue.
+2021-12-28,,Somerset,Maryland,USA-24039,both,,,0,Maryland added many cases and deaths in Somerset County after resolving a technical issue.
+2021-12-28,,St. Mary's,Maryland,USA-24037,both,,,0,Maryland added many cases and deaths in St. Mary's County after resolving a technical issue.
+2021-12-28,,Talbot,Maryland,USA-24041,both,,,0,Maryland added many cases and deaths in Talbot County after resolving a technical issue.
+2021-12-28,,Washington,Maryland,USA-24043,both,,,0,Maryland added many cases and deaths in Washington County after resolving a technical issue.
+2021-12-28,,Wicomico,Maryland,USA-24045,both,,,0,Maryland added many cases and deaths in Wicomico County after resolving a technical issue.
+2021-12-28,,Worcester,Maryland,USA-24047,both,,,0,Maryland added many cases and deaths in Worcester County after resolving a technical issue.
