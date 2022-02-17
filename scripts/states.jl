@@ -1,5 +1,10 @@
-using DataFrames, StatsBase, StatsPlots, CSV, CovidNYT, Dates
+using DataFrames, StatsBase, StatsPlots, CSV, Dates
+using CovidNYT
+
 gr(size=(700, 1000))
+
+import CompatHelperLocal as CHL
+CHL.@check()
 
 ProjDir = @__DIR__
 

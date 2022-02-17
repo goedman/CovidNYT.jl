@@ -998,6 +998,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-24,,Bedford,Virginia,USA-51019,cases,yes,,0,Virginia removed many cases in Bedford County.
 2021-09-24,,Danville city,Virginia,USA-51590,cases,yes,,0,Virginia removed many cases in Danville.
 2021-09-27,,,Connecticut,USA-09,deaths,yes,,0,Connecticut added about 90 deaths that occurred out-of-state in previous months.
+2021-09-28,,,Nebraska,USA-31,deaths,yes,,0,"Nebraska began reporting probable deaths, resulting in a one-day increase in deaths."
 2021-10-06,,,Nevada,USA-32,cases,yes,yes,0,Nevada began reporting cases indentified through antigen testing.
 2021-10-10,,,,USA,deaths,,,-289,Arkansas added many deaths. The state indicated that many of the 289 deaths announced were from previous months.
 2021-10-10,,,Arkansas,USA-05,deaths,yes,yes,0,Arkansas added many deaths after reconciling records.
@@ -1018,7 +1019,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-10-18,,,Alaska,USA-02,both,,,0,"Alaska did not release new data for Alaska Day, a state holiday."
 2021-10-18,,Yellowstone,Montana,USA-30111,deaths,,,0,Yellowstone County added 29 deaths from earlier in September and October 2021 after reviewing records.
 2021-10-19,,,Alaska,USA-02,deaths,,,0,Alaska added many deaths after reviewing death certificates. Most of the deaths occurred in September and October 2021.
-2021-10-20,,,,USA,deaths,,,-1053,"Oklahoma reported 1,053 additional backlogged deaths after reconciling records from 2020."
 2021-10-20,,,Oklahoma,USA-40,deaths,,yes,-1053,"Oklahoma reported 1,053 additional backlogged deaths after reconciling records from 2020."
 2021-10-25,,,California,USA-06,both,,,0,California was unable to release new data because of issues related to the storm on Oct. 24. Some counties updated independently.
 2021-10-26,2021-11-01,,New Hampshire,USA-33,cases,yes,,0,New Hampshire reported many cases on Nov. 1 after the state was unable to report data regularly the week of Oct. 25 because of technical issues.
@@ -1382,9 +1382,72 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-01-05,,Williamson,Tennessee,USA-47187,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
 2022-01-06,2022-01-07,,Georgia,USA-13,both,,,0,Georgia was unable to report new cases and deaths because of technical issues.
 2022-01-10,2022-01-11,,Vermont,USA-50,both,,,0,Vermont was unable to report new cases and deaths because of technical issues.
-2022-01-10,,McCreary,Kentucky,USA-21147,cases,,,0,Local health officials are temporarily unable to provide cumulative case updates for McCreary County.
-2022-01-10,,Pulaski,Kentucky,USA-21199,cases,,,0,Local health officials are temporarily unable to provide cumulative case updates for Pulaski County.
-2022-01-10,,Wayne,Kentucky,USA-21231,cases,,,0,Local health officials are temporarily unable to provide cumulative case updates for Wayne County.
+2022-01-10,2022-01-19,McCreary,Kentucky,USA-21147,cases,,,0,Local health officials are temporarily unable to provide cumulative case updates for McCreary County.
+2022-01-10,2022-01-17,Pulaski,Kentucky,USA-21199,cases,,,0,Local health officials are temporarily unable to provide cumulative case updates for Pulaski County.
+2022-01-10,2022-01-22,Wayne,Kentucky,USA-21231,cases,,,0,Local health officials are temporarily unable to provide cumulative case updates for Wayne County.
 2022-01-13,2022-01-14,,Alabama,USA-01,both,,,0,Alabama was unable to report new cases and deaths because of technical issues.
 2022-01-14,,,Texas,USA-48,cases,,yes,0,"Texas audited cases data from previous years, which added about 26,000 cases to the state total and resulted in one-day increases or decreases in cumulative cases for many counties."
 2022-01-14,,,Texas,USA-48,cases,,,-26236,"Texas audited cases data from previous years, which resulted in the state total increasing by 26,236 cases."
+2022-01-17,,,Wyoming,USA-56,both,,,0,Wyoming did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Michigan,USA-26,both,,,0,Michigan did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Washington,USA-53,both,,,0,Washington did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Massachusetts,USA-25,both,,,0,Massachusetts did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Louisiana,USA-22,both,,,0,Louisiana did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Alaska,USA-02,both,,,0,Alaska did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Illinois,USA-17,both,,,0,Illinois did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Wisconsin,USA-55,cases,,,0,"Wisconsin added many cases after resolving a backlog of testing results, particularly in Dane and Waukesha counties."
+2022-01-17,,,Mississippi,USA-28,both,,,0,Mississippi did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,South Carolina,USA-45,both,,,0,South Carolina did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,,USA,both,,,0,The daily count is artificially low on Jan. 17 because many states and local jurisdictions did not announce new data on the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Minnesota,USA-27,both,,,0,Minnesota did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,North Carolina,USA-37,both,,,0,North Carolina did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,New Hampshire,USA-33,both,,,0,New Hampshire did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,South Dakota,USA-46,both,,,0,South Dakota did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Idaho,USA-16,both,,,0,Idaho did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Kentucky,USA-21,both,,,0,Kentucky did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Utah,USA-49,both,,,0,Utah did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Vermont,USA-50,both,,,0,Vermont did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Montana,USA-30,both,,,0,Montana did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Oregon,USA-41,both,,,0,Oregon did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Nevada,USA-32,both,,,0,Nevada did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,Kansas,USA-20,both,,,0,Kansas did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,,New Mexico,USA-35,both,,,0,New Mexico did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
+2022-01-17,,Dane,Wisconsin,USA-55025,cases,,,0,Wisconsin added many cases in Dane County after resolving a backlog of testing results.
+2022-01-17,,Waukesha,Wisconsin,USA-55133,cases,,,0,Wisconsin added many cases in Waukesha County after resolving a backlog of testing results.
+2022-01-24,,,North Dakota,USA-38,both,,,0,North Dakota was unable to report new cases and deaths because of technical issues.
+2022-01-24,2022-01-25,,South Carolina,USA-45,both,,,0,South Carolina was unable to report new cases and deaths because of technical issues.
+2022-01-25,2022-01-26,,Alabama,USA-01,both,,,0,Alabama was unable to report new cases and deaths because of technical issues.
+2022-01-25,,Douglas,Nevada,USA-32005,cases,yes,,0,"Nevada removed many cases in several counties, including Douglas County."
+2022-01-25,,Lyon,Nevada,USA-32019,cases,yes,,0,"Nevada removed many cases in several counties, including Lyon County."
+2022-01-25,,Storey,Nevada,USA-32029,cases,yes,,0,"Nevada removed many cases in several counties, including Storey County."
+2022-01-26,,,Washington,USA-53,cases,,,0,Washington added many cases after resolving a backlog of testing results.
+2022-01-26,,,Louisiana,USA-22,cases,yes,yes,0,"Louisiana added about 53,000 cases representing people who were infected more than once."
+2022-01-29,2022-01-30,,Arkansas,USA-05,both,,,0,Arkansas did not report new cases and deaths during data system maintenance.
+2022-01-31,,,Mississippi,USA-28,deaths,,,0,Mississippi added many deaths from earlier in January after reviewing records.
+2022-02-01,,King,Washington,USA-53033,both,,,0,King County was unable to report new cases and deaths because of technical issues.
+2022-02-04,,Whitman,Washington,USA-53075,cases,,,0,Washington removed many cases in Whitman County after adding many cases the previous week.
+2022-02-05,2022-02-06,,Alabama,USA-01,both,,,0,Alabama did not report new cases and deaths during data system maintenance.
+2022-02-08,,,Pennsylvania,USA-42,cases,,,0,"Pennsylvania removed more than 4,000 previously reported cases across many counties."
+2022-02-09,,,Indiana,USA-18,both,,,0,Indiana was unable to report new cases and deaths because of a technical issue.
+2022-02-09,2022-02-10,San Mateo,California,USA-06081,cases,yes,,0,"California adjusted the case count in San Mateo County, resulting in an increase on Feb. 9 followed by a decrease on Feb. 10."
+2022-02-09,2022-02-10,Lake,California,USA-06033,cases,yes,,0,"California adjusted the case count in Lake County, resulting in an increase on Feb. 9 followed by a decrease on Feb. 10."
+2022-02-09,2022-02-10,Monterey,California,USA-06053,cases,yes,,0,"California adjusted the case count in Monterey County, resulting in an increase on Feb. 9 followed by a decrease on Feb. 10."
+2022-02-09,2022-02-10,San Francisco,California,USA-06075,cases,yes,,0,"California adjusted the case count in San Francisco County, resulting in an increase on Feb. 9 followed by a decrease on Feb. 10."
+2022-02-11,,,Illinois,USA-17,both,,,0,Illinois did not release data because of a state holiday.
+2022-02-11,2022-02-13,,Missouri,USA-29,both,,,0,Missouri did not release data because of a state holiday.
+2022-02-11,,,Kansas,USA-20,both,,,0,Kansas did not report new cases and deaths during data system maintenance.
+2022-02-15,,,Maine,USA-23,cases,yes,yes,0,Maine added many cases after resolving a backlog of testing results. State officials had previously said January case counts were artificially low.
+2022-02-16,,,Maryland,USA-24,cases,yes,yes,0,"Maryland added about 24,800 cases from recent months representing people who were infected more than once."
+2022-02-16,,,Washington,USA-53,cases,,,0,Washington removed many cases in several large counties.
+2022-02-16,,Spokane,Washington,USA-53063,cases,,,0,Washington removed many cases in Spokane County.
+2022-02-16,,Pierce,Washington,USA-53053,cases,,,0,Washington removed many cases in Pierce County.
+2022-02-16,,Washington,Rhode Island,USA-44009,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
+2022-02-16,,Providence,Rhode Island,USA-44007,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
+2022-02-16,,Newport,Rhode Island,USA-44005,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
+2022-02-16,,Kent,Rhode Island,USA-44003,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
+2022-02-16,,Bristol,Rhode Island,USA-44001,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
+2022-02-16,,Franklin,Washington,USA-53021,cases,,,0,Washington removed many cases in Franklin County.
+2022-02-16,,Snohomish,Washington,USA-53061,cases,,,0,Washington removed many cases in Snohomish County.
+2022-02-16,,Kittitas,Washington,USA-53037,cases,,,0,Washington removed many cases in Kittitas County.
+2022-02-16,,Mason,Washington,USA-53045,cases,,,0,Washington removed many cases in Mason County.
+2022-02-16,,Whatcom,Washington,USA-53073,cases,,,0,Washington removed many cases in Whatcom County.
