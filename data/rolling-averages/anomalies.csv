@@ -1437,7 +1437,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-02-11,,,Illinois,USA-17,both,,,0,Illinois did not release data because of a state holiday.
 2022-02-11,2022-02-13,,Missouri,USA-29,both,,,0,Missouri did not release data because of a state holiday.
 2022-02-11,,,Kansas,USA-20,both,,,0,Kansas did not report new cases and deaths during data system maintenance.
-2022-02-14,,Kittitas,Washington,USA-53037,cases,,,0,"Washington removed many cases in Kittitas County, resulting in artificially low case counts."
+2022-02-14,2022-02-27,Kittitas,Washington,USA-53037,cases,yes,,0,"Washington removed many cases in Kittitas County, resulting in artificially low case counts."
 2022-02-15,2022-02-20,,Maine,USA-23,cases,yes,yes,0,Maine added many cases after resolving a backlog of testing results. State officials had previously said January case counts were artificially low.
 2022-02-16,,,Maryland,USA-24,cases,yes,yes,0,"Maryland added about 24,800 cases from recent months representing people who were infected more than once."
 2022-02-16,,,Washington,USA-53,cases,,,0,Washington removed many cases in several large counties.
@@ -1459,4 +1459,52 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-02-23,,Clallam,Washington,USA-53009,cases,,,0,Washington removed many cases in Clallam County.
 2022-02-23,,Thurston,Washington,USA-53067,cases,,,0,Washington removed many cases in Thurston County.
 2022-02-24,,,Delaware,USA-10,cases,yes,yes,0,Delaware added many cases from a backlog of test results submitted by fax during previous weeks in 2022. 
+2022-02-24,2022-03-02,Salem city,Virginia,USA-51775,cases,,,0,Virginia removed many cases previously reported in Salem.
 2022-02-25,,,California,USA-06,cases,,,0,"California added a backlog of about 4,400 cases from one lab."
+2022-02-26,,,Arizona,USA-04,both,,,0,Arizona stopped daily data updates and transitioned to a weekly reporting schedule.
+2022-02-26,2022-03-01,,Louisiana,USA-22,both,,,0,Louisiana did not report new cases and deaths for the Mardi Gras holiday.
+2022-02-28,,,Nebraska,USA-31,cases,yes,yes,0,Nebraska added many cases from recent months representing people who were infected more than once.
+2022-02-28,2022-03-02,Bennington,Vermont,USA-50003,cases,yes,,0,Vermont reallocated many cases to Bennington County.
+2022-02-28,2022-03-03,Roanoke,Virginia,USA-51161,cases,yes,,0,"Virginia reallocated many cases, resulting in an increase in cases in Roanoke County."
+2022-03-01,,,Iowa,USA-19,cases,yes,,0,"Iowa added more than 5,000 previously unreported cases. "
+2022-03-01,,,Vermont,USA-50,both,,,0,"Vermont did not announce new cases and deaths for Town Meeting Day, a state holiday."
+2022-03-02,,Carlton,Minnesota,USA-27017,cases,,,0,Minnesota removed cases in Carlton County.
+2022-03-02,,Clay,Minnesota,USA-27027,cases,,,0,Minnesota removed cases in Clay County.
+2022-03-02,,Hennepin,Minnesota,USA-27053,cases,,,0,Minnesota removed many cases in Hennepin County.
+2022-03-02,,McLeod,Minnesota,USA-27085,cases,,,0,Minnesota removed cases in McLeod County.
+2022-03-02,,Scott,Minnesota,USA-27139,cases,,,0,Minnesota removed cases in Scott County.
+2022-03-02,,Washington,Minnesota,USA-27163,cases,,,0,Minnesota removed many cases in Washington County.
+2022-03-02,,Addison,Vermont,USA-50001,cases,yes,,0,Vermont reallocated many cases to Addison County.
+2022-03-02,,Caledonia,Vermont,USA-50005,cases,yes,,0,Vermont reallocated many cases to Caledonia County.
+2022-03-02,,Chittenden,Vermont,USA-50007,cases,yes,,0,Vermont reallocated many cases to Chittenden County.
+2022-03-02,,Essex,Vermont,USA-50009,cases,yes,,0,Vermont reallocated many cases to Essex County.
+2022-03-02,,Franklin,Vermont,USA-50011,cases,yes,,0,Vermont reallocated many cases to Franklin County.
+2022-03-02,,Grand Isle,Vermont,USA-50013,cases,yes,,0,Vermont reallocated many cases to Grand Isle County.
+2022-03-02,,Lamoille,Vermont,USA-50015,cases,yes,,0,Vermont reallocated many cases to Lamoille County.
+2022-03-02,,Orange,Vermont,USA-50017,cases,yes,,0,Vermont reallocated many cases to Orange County.
+2022-03-02,,Orleans,Vermont,USA-50019,cases,yes,,0,Vermont reallocated many cases to Orleans County.
+2022-03-02,,Rutland,Vermont,USA-50021,cases,yes,,0,Vermont reallocated many cases to Rutland County.
+2022-03-02,,Washington,Vermont,USA-50023,cases,yes,,0,Vermont reallocated many cases to Washington County.
+2022-03-02,,Windham,Vermont,USA-50025,cases,yes,,0,Vermont reallocated many cases to Windham County.
+2022-03-02,,Windsor,Vermont,USA-50027,cases,yes,,0,Vermont reallocated many cases to Windsor County.
+2022-03-03,2022-03-07,Wayne,Nebraska,USA-31179,cases,yes,,0,Nebraska added a backlog of cases in Wayne County from recent months.
+2022-03-04,,Whitman,Washington,USA-53075,cases,yes,,0,"The Times began using the state’s count for Whitman County after local officials stopped regularly reporting new cases, resulting in a one-day decrease in cases."
+2022-03-07,,,Alabama,USA-01,cases,,,-2654,"Alabama added a backlog of 2,654 cases from testing that occurred in December 2021 through February 2022."
+2022-03-07,2022-03-08,,Connecticut,USA-09,cases,yes,,0,Connecticut added a backlog of cases from 2021.
+2022-03-07,,Shelby,Alabama,USA-01117,cases,yes,,0,"Alabama added a backlog of cases from testing that occurred in December 2021 through February 2022, including many cases in Shelby County."
+2022-03-07,,Jefferson,Alabama,USA-01073,cases,yes,,0,"Alabama added a backlog of cases from testing that occurred in December 2021 through February 2022, including many cases in Jefferson County."
+2022-03-07,,St. Clair,Alabama,USA-01115,cases,yes,,0,"Alabama added a backlog of cases from testing that occurred in December 2021 through February 2022, including many cases in St. Clair County."
+2022-03-07,2022-03-08,New Haven,Connecticut,USA-09009,cases,yes,,0,"Connecticut added a backlog of cases from 2021, including many cases in New Haven County."
+2022-03-07,2022-03-08,Fairfield,Connecticut,USA-09001,cases,yes,,0,"Connecticut added a backlog of cases from 2021, including many cases in Fairfield County."
+2022-03-08,,,District of Columbia,USA-11,both,yes,,0,The District of Columbia did not update cases or deaths while transitioning to a weekly reporting schedule.
+2022-03-08,2022-03-11,San Francisco,California,USA-06075,cases,,,0,California removed many cases from San Francsico County between March 8 and March 11.
+2022-03-09,,,Alaska,USA-02,cases,yes,yes,0,Alaska added a backlog of cases from testing that occurred in the Yukon-Kuskokwim region. 
+2022-03-09,,,Oklahoma,USA-40,both,yes,yes,0,Oklahoma did not update county data during a transition to a new weekly schedule.
+2022-03-10,,,Delaware,USA-10,cases,yes,,0,Delaware added a backlog of cases from recent months.
+2022-03-11,,,Minnesota,USA-27,cases,,yes,0,Minnesota reallocated many cases that were previously not assigned to a specific county. 
+2022-03-14,,,Massachusetts,USA-25,deaths,yes,yes,0,"Massachusetts changed its methodology for counting deaths to align with national guidance, resulting in a decrease of about 3,700 deaths."
+2022-03-14,,,,USA,deaths,,,0,The cumulative number of deaths decreased because Massachusetts removed many previously reported deaths.
+2022-03-14,,Douglas,Nebraska,USA-31055,cases,yes,,0,"Douglas County added about 1,300 cases representing people who were infected more than once."
+2022-03-16,,,New Jersey,USA-34,cases,,,-1182,"New Jersey added a backlog of about 1,200 cases from testing that occurred in December 2021 and January 2022."
+2022-03-18,,,Michigan,USA-26,cases,,,-825,Michigan added a backlog of about 825 older cases.
+2022-03-19,,Los Angeles,California,USA-06037,cases,,,-2517,"Los Angeles County added a backlog of 2,517 older cases."
